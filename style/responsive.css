@@ -1,0 +1,329 @@
+/* extra small device respomsive start  */
+@media (min-width: 320px) and (max-width: 575px) {
+  /* nav start */
+  nav {
+    padding: 10px;
+  }
+  .logo {
+    width: 50px;
+  }
+  nav ul li {
+    margin-left: 0;
+    font-size: 12px;
+  }
+  nav ul {
+    gap: 10px;
+  }
+  nav ul li::after {
+    height: 1px;
+    bottom: -3px;
+  }
+  /* nav end */
+  /* banner start */
+  #benner {
+    padding: 60px 10px;
+  }
+  #benner .img_text {
+    display: block;
+  }
+  #benner .text_area {
+    width: 100%;
+  }
+  #benner .text_area h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  #benner .text_area p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  #benner .text_area input {
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 5px;
+  }
+  #benner .text_area input::placeholder {
+    font-size: 12px;
+  }
+  #benner .text_area .bennericon {
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 13px;
+  }
+  #benner .text_area button {
+    width: 18%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 12px;
+  }
+  #benner .text_area .input_button {
+    justify-content: space-between;
+  }
+  #benner .text_area .input_icon {
+    width: 72%;
+  }
+  #benner .img_area {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #benner .img_area img {
+    width: 100%;
+  }
+  /* banner end */
+  /* 3rdpart start */
+  #rdpart {
+    padding: 20px 0px 21px 0px;
+  }
+  #rdpart h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 115%;
+    width: auto;
+    height: 51px;
+    text-align: center;
+}
+  #rdpart .protik {
+    display: block;
+    ;
+  }
+  #rdpart .propate_itam{
+    text-align: center;
+  }
+  #rdpart .propate_itam p{
+    margin: auto;
+  }
+  #rdpart .propate_itam h3{
+    margin: auto;
+  }
+  #rdpart .propate_itam h3 {
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-bottom: 5px;
+  }
+  #rdpart .propate_itam p {
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: -50px;
+  }
+  #rdpart .propate_itam {
+    width: auto;
+    padding: 10px 36px;
+   top: 20px !important;
+  }
+  /* 3rdpart end */
+
+  /* fevorit start */
+  #favorit {
+    background: #eeedde;
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  #favorit .left_side p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 68px;
+    text-align: center;
+}
+  #favorit .left_right {
+    display: block;
+}
+#favorit .left_side {
+    width: auto;
+}
+#favorit .left_side h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 136%;
+  margin-top: 0px;
+  width: auto;
+  text-align: center;
+}
+#favorit .left_side .imgone {
+    margin-top: 10px;
+}
+#favorit .left_side .imgtow {
+ 
+  width: 75%;
+}
+#favorit .left_side .imgone {
+  
+  width: 75%;
+}
+#favorit .right_side {
+  width: auto;
+  
+  
+}
+#favorit .right_side h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 109%;
+  width: auto;
+  margin: 0px 5px 0px 5px;
+  text-align: center !important;
+}
+#favorit .right_side .button-parent{
+  text-align: center;
+  margin-top: 40px;
+}
+#favorit .right_side .freediv {
+  width: 100%;
+  height: 165px;
+}
+#favorit .right_side p {
+  font-size: 12px;
+  width: auto;
+  margin: -50px 5px 50px 5px;
+
+  margin-top: -50px;
+  text-align: justify;
+}
+#favorit .right_side a:first-child{
+  width50%
+}
+  /* fevorit end */
+  /* kota start */
+  #kota {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  #kota .fast_part p {
+    font-size: 16px;
+    font-weight: 500;
+    
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  #kota .fast_part h2 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 100%;
+    
+    margin-bottom: 25px;
+    text-align: center;
+  }
+ 
+  #kota .last_part {
+    display: block;
+    
+  }
+  #kota .last_part .one h3 {
+    
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  #kota .last_part .one p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    width: auto;
+    margin: 6px 5px 6px 5px;
+    text-align: center;
+    height: 45px;
+  }
+  #kota .last_part .one img{
+    width: 100%;
+  }
+  #kota .last_part .tow h3 {
+    
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  #kota .last_part .tow p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    width: auto;
+    margin: 6px 5px 6px 5px;
+    text-align: center;
+    height: 35px;
+  }
+  #kota .last_part .tow img{
+    width: 100%;
+  }
+
+  #kota .last_part .three h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  #kota .last_part .three p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    width: auto;
+    margin: 6px 5px 6px 5px;
+    text-align: center;
+    height: 40px;
+  }
+  #kota .last_part .three img{
+    width: 100%;
+  }
+  
+  /* kota end */
+  /* kami start */
+  #kami .text_perent {
+    display: block;
+  }
+  #kami .text_left {
+    width: 100%;
+  }
+  #kami .text_left h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 115%;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .kami_div {
+    display: block;
+ 
+  }
+  #kami .text_left .fotter_top {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+  }
+  #kami .text_right {
+    width: 100%;
+  }
+  #kami .text_right h2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+  }
+  #kami .text_right img{
+    margin: auto;
+  }
+  /* kami end */
+  /* fotter start */
+  .fotter_perent {
+    display: block;
+  }
+
+  /* fotter end */
+}
+/* extra small device respomsive end  */
